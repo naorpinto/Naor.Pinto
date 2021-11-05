@@ -1,0 +1,26 @@
+* {
+    background-color: whitesmoke;
+}
+
+body {
+    text-align: center;
+}
+
+h1{
+    color:navy;
+}
+
+h2{
+    color:blueviolet;
+}
+
+#submit_now{
+    background-color:crimson;
+}
+
+#send_message{
+    background-color: darkgrey;
+}
+.forms{
+    color: rgb(22, 154, 187);
+}
