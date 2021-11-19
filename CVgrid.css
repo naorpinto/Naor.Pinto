@@ -10,8 +10,40 @@
     'subtitle6 col2 item6'
     'subtitle7 item7 item7'
     ;
+   
 }
 
+body{
+    background-color:white;
+    animation-name: changeBackgroundColor;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes changeBackgroundColor{
+    0% { background-color: white}
+    25% { background-color:aqua}
+    50% { background-color:white}
+    75% { background-color: aqua}
+    100% { background-color: white}  
+}
+
+button{
+    height: 10%;
+    font-size: 20px;
+    background-color: rgb(39, 95, 160);
+    animation-name: blink;
+    animation-duration: 10s;
+    animation-iteration-count: 10s;
+}
+
+@keyframes blink{
+    0% { background-color: rgb(39, 95, 160); border-radius: 0%;}
+    25% { background-color:white; border-radius: 50%}
+    50% { background-color:rgb(39, 95, 160);border-radius: 100%}
+    75% { background-color: white;border-radius: 50%}
+    100% { background-color: rgb(39, 95, 160);border-radius: 0%}  
+}
 
 @media only screen and (max-width: 600px) {
     body{
